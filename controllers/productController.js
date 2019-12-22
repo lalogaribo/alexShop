@@ -1,6 +1,5 @@
 const Product = require('../models/productModel');
 const catchAsync = require('./../utils/catchAsync');
-const AppError = require('./../utils/appError');
 const factoryController = require('./factoryController');
 
 exports.createProduct = factoryController.createOne(Product);
